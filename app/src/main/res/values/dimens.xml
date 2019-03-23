@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="margenes">30dp</dimen>
+    <dimen name="margentop">20dp</dimen>
+    <dimen name="tamaniotexto">35sp</dimen>
+</resources>

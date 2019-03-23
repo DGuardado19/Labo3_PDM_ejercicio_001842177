@@ -1,3 +1,6 @@
 <resources>
     <string name="app_name">TareaLabo3</string>
+    <string name="userhint">User</string>
+    <string name="passwordhint">Password</string>
+    <string name="emailhint">Email</string>
 </resources>

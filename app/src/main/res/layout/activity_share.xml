@@ -5,52 +5,56 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    tools:context=".MainActivity">
-
-    <EditText
-        android:id="@+id/Usertext"
+    tools:context=".Share">
+    
+    <TextView
+        android:id="@+id/Userview"
+        android:textSize="@dimen/tamaniotexto"
         android:layout_width="match_parent"
+        android:layout_height="wrap_content"
         android:layout_marginLeft="@dimen/margenes"
         android:layout_marginTop="@dimen/margentop"
         android:layout_marginRight="@dimen/margenes"
-        android:layout_height="wrap_content"
-        android:hint="@string/userhint"
-        android:gravity="center"/>
-    <EditText
-        android:id="@+id/PasswordText"
+        android:gravity="center"
+        />
+    <TextView
+        android:id="@+id/Passview"
+        android:textSize="@dimen/tamaniotexto"
         android:layout_width="match_parent"
+        android:layout_height="wrap_content"
         android:layout_marginLeft="@dimen/margenes"
         android:layout_marginTop="@dimen/margentop"
         android:layout_marginRight="@dimen/margenes"
-        android:layout_height="wrap_content"
-        android:hint="@string/passwordhint"
-        android:gravity="center"/>
-    <EditText
-        android:id="@+id/EmailText"
+        android:gravity="center"
+        />
+    <TextView
+        android:id="@+id/Emailview"
+        android:textSize="@dimen/tamaniotexto"
         android:layout_width="match_parent"
+        android:layout_height="wrap_content"
         android:layout_marginLeft="@dimen/margenes"
         android:layout_marginTop="@dimen/margentop"
         android:layout_marginRight="@dimen/margenes"
-        android:layout_height="wrap_content"
-        android:hint="@string/emailhint"
-        android:gravity="center"/>
-    <EditText
-        android:id="@+id/GenderText"
+        android:gravity="center"
+        />
+    <TextView
+        android:id="@+id/Genderview"
+        android:textSize="@dimen/tamaniotexto"
         android:layout_width="match_parent"
+        android:layout_height="wrap_content"
         android:layout_marginLeft="@dimen/margenes"
         android:layout_marginTop="@dimen/margentop"
         android:layout_marginRight="@dimen/margenes"
-        android:layout_height="wrap_content"
-        android:hint="Gender"
-        android:gravity="center"/>
+        android:gravity="center"
+        />
     <Button
-        android:id="@+id/BotonPasar"
+        android:id="@+id/BotonShare"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Pasar"
         android:layout_marginLeft="@dimen/margenes"
         android:layout_marginTop="@dimen/margentop"
         android:layout_marginRight="@dimen/margenes"
-        android:gravity="center"/>
+        android:gravity="center"
+        android:text="Share"/>
 
 </LinearLayout>
